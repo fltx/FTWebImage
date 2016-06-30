@@ -22,9 +22,25 @@ private struct FTImageViewKeys {
 }
 
 
-// MARK: - HighlightedWebCahce
+// MARK: - HighlightedWebCache
 extension UIImageView{
-    func ft_setHighlightImageWithURL(url : NSURL?,options : FTWebImageOptions,progressClosure : FTWebImageDownloaderProgressClosure,completeClosure : FTWebImageCompletedClosure?) {
+    func ft_setHighlightedImageWithURL(url : NSURL){
+        ft_setHighlightImageWithURL(url, options: .RetryFailed, progressClosure: nil, completeClosure: nil)
+    }
+    
+    func ft_setHighlightedImageWithURL(url : NSURL,options : FTWebImageOptions) {
+        ft_setHighlightImageWithURL(url, options: options, progressClosure: nil, completeClosure: nil)
+    }
+    
+    func ft_setHighlightedImageWithURL(url : NSURL,completedClosure : FTWebImageCompletedClosure){
+        ft_setHighlightImageWithURL(url, options: .RetryFailed, progressClosure: nil, completeClosure: completedClosure)
+    }
+    
+    func ft_setHighlightedImageWithURL(url : NSURL,options : FTWebImageOptions,completedClosure : FTWebImageCompletedClosure) {
+        ft_setHighlightImageWithURL(url, options: options, progressClosure: nil, completeClosure: completedClosure)
+    }
+    
+    func ft_setHighlightImageWithURL(url : NSURL?,options : FTWebImageOptions,progressClosure : FTWebImageDownloaderProgressClosure?,completeClosure : FTWebImageCompletedClosure?) {
         ft_cancelCurrentHighlightImageLoad()
         if let url = url{
             let operation = FTWebImageManager.sharedManager.downloadImageWithURL(url, options: options, progressClosure: progressClosure, completionClosure: { [weak self](image, error, cacheType, finished, imageURL) in
@@ -42,7 +58,11 @@ extension UIImageView{
                         }
                     })
                 }
-            })
+                })
+            ft_setImageLoadOperation(operation, key: FTImageViewHighlightedWebCacheOperationKey)
+        }else{
+            let error = NSError(domain: FTWebImageErrorDomain, code: 0, userInfo: [NSLocalizedDescriptionKey : "Image data is nil"])
+            completeClosure?(image: nil,error: error,cacheType:.None,imageURL: url)
         }
     }
     
