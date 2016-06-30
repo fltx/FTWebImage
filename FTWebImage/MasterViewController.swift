@@ -1,6 +1,6 @@
 //
 //  MasterViewController.swift
-//  Test
+//  FTWebImage
 //
 //  Created by Neo on 16/4/7.
 //  Copyright © 2016年 XM. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  FTImageView.swift
-//  Test
+//  FTWebImage
 //
 //  Created by Neo on 16/4/15.
 //  Copyright © 2016年 XM. All rights reserved.
@@ -10,7 +10,6 @@ import UIKit
 import Foundation
 
 let FTImageViewHighlightedWebCacheOperationKey = "HighlightedWebCacheOperationKey"
-
 
 /**
  Keys used for associated objects.
@@ -23,7 +22,37 @@ private struct FTImageViewKeys {
 }
 
 
-// MARK: - GIF
+// MARK: - HighlightedWebCahce
+extension UIImageView{
+    func ft_setHighlightImageWithURL(url : NSURL?,options : FTWebImageOptions,progressClosure : FTWebImageDownloaderProgressClosure,completeClosure : FTWebImageCompletedClosure?) {
+        ft_cancelCurrentHighlightImageLoad()
+        if let url = url{
+            let operation = FTWebImageManager.sharedManager.downloadImageWithURL(url, options: options, progressClosure: progressClosure, completionClosure: { [weak self](image, error, cacheType, finished, imageURL) in
+                if let strongSelf = self{
+                    dispatch_main_sync_safe({
+                        if image != nil  && options == FTWebImageOptions.AvoidAutoSetImage {
+                            completeClosure?(image: image,error: error,cacheType: cacheType,imageURL: url)
+                            return
+                        }else if image != nil{
+                            strongSelf.highlightedImage = image
+                            strongSelf.setNeedsLayout()
+                        }
+                        if finished{
+                            completeClosure?(image: image,error: error,cacheType: cacheType,imageURL: url)
+                        }
+                    })
+                }
+            })
+        }
+    }
+    
+    func ft_cacelCurrentHighlightedImageLoad() {
+        ft_cancelImageLoadOperationWithKey(FTImageViewHighlightedWebCacheOperationKey)
+    }
+}
+
+
+// MARK: - WebCache
 extension UIImageView{
     
     func ft_setImageWithURL(url : NSURL)  {
@@ -119,14 +148,6 @@ extension UIImageView{
     
     func ft_imageURL() -> NSURL {
         return objc_getAssociatedObject(self, &FTImageViewKeys.ImageURLKey) as! NSURL
-    }
-    
-    func ft_setHighlightImageWithURL(url : NSURL?,options : FTWebImageOptions,progressClosure : FTWebImageDownloaderProgressClosure,completeClosure : FTWebImageDownloaderCompletedClosure) {
-        ft_cancelCurrentHighlightImageLoad()
-        if url != nil{
-            let operation = FTWebImageManager()
-            
-        }
     }
     
     func ft_cancelCurrentHighlightImageLoad(){

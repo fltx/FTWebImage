@@ -1,6 +1,6 @@
 //
 //  FTImageDownloaderOperation.swift
-//  Test
+//  FTWebImage
 //
 //  Created by Neo on 16/4/8.
 //  Copyright © 2016年 XM. All rights reserved.

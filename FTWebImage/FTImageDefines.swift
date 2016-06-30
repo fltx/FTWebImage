@@ -19,7 +19,7 @@ typealias FTWebImageDownloaderProgressClosure = (receivedSize : Int,expectedSize
 typealias FTWebImageDownloaderCompletedClosure = (image : UIImage?,data : NSData?,error : NSError?,finished : Bool) -> ()
 typealias FTWebImageDownloaderHeadersFilterClosure = (url : NSURL,headers : [String : String]) -> ([String : String])
 
-typealias FTWebImageCompletedClosure = (image : UIImage?,error : NSError,cacheType : FTImageCacheType,imageURL : NSURL?) -> ()
+typealias FTWebImageCompletedClosure = (image : UIImage?,error : NSError?,cacheType : FTImageCacheType,imageURL : NSURL?) -> ()
 typealias FTWebImageCompletionWithFinishedClosure = (image : UIImage?,error : NSError?,cacheType : FTImageCacheType,finished : Bool,imageURL : NSURL) -> ()
 typealias FTWebImageCacheKeyFilterClosure = (url : NSURL) -> (String)
 

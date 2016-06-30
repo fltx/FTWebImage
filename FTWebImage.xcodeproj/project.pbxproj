@@ -99,6 +99,7 @@
 				1800FB9A1D24EA2900AB82E7 /* Assets.xcassets */,
 				1800FB9B1D24EA2900AB82E7 /* LaunchScreen.storyboard */,
 				1800FB9D1D24EA2900AB82E7 /* Main.storyboard */,
+				1800FBBC1D24EA2900AB82E7 /* MasterViewController.swift */,
 				1800FB9F1D24EA2900AB82E7 /* DetailViewController.swift */,
 				1800FBA01D24EA2900AB82E7 /* ExSwift */,
 				1800FBAF1D24EA2900AB82E7 /* FTData.swift */,
@@ -114,7 +115,6 @@
 				1800FBB91D24EA2900AB82E7 /* FTWebImageManager.swift */,
 				1800FBBA1D24EA2900AB82E7 /* FTWebImagePrefetch.swift */,
 				1800FBBB1D24EA2900AB82E7 /* Info.plist */,
-				1800FBBC1D24EA2900AB82E7 /* MasterViewController.swift */,
 			);
 			path = FTWebImage;
 			sourceTree = "<group>";

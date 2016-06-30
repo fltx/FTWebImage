@@ -1,6 +1,6 @@
 //
 //  FTData.swift
-//  Test
+//  FTWebImage
 //
 //  Created by Neo on 16/4/14.
 //  Copyright © 2016年 XM. All rights reserved.
@@ -9,7 +9,7 @@
 import Foundation
 
 
-// MARK: - ImageType
+// MARK: - ImageContentType
 extension NSData{
     class func contentTypeForImageData(data : NSData) -> String?{
         return ft_contentTypeForImageData(data)

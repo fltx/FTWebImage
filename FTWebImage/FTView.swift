@@ -1,6 +1,6 @@
 //
 //  FTView.swift
-//  Test
+//  FTWebImage
 //
 //  Created by Neo on 16/4/14.
 //  Copyright © 2016年 XM. All rights reserved.
@@ -9,6 +9,7 @@
 import UIKit
 
 
+// WebCacheOperation
 extension UIView{
     /**
      Keys used for associated objects.
