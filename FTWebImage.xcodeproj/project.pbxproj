@@ -25,21 +25,21 @@
 		1800FBCC1D24EA2900AB82E7 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800FBAC1D24EA2900AB82E7 /* Range.swift */; };
 		1800FBCD1D24EA2900AB82E7 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800FBAD1D24EA2900AB82E7 /* Sequence.swift */; };
 		1800FBCE1D24EA2900AB82E7 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800FBAE1D24EA2900AB82E7 /* String.swift */; };
-		1800FBCF1D24EA2900AB82E7 /* FTData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800FBAF1D24EA2900AB82E7 /* FTData.swift */; };
-		1800FBD01D24EA2900AB82E7 /* FTImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800FBB01D24EA2900AB82E7 /* FTImage.swift */; };
-		1800FBD11D24EA2900AB82E7 /* FTImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800FBB11D24EA2900AB82E7 /* FTImageCache.swift */; };
-		1800FBD21D24EA2900AB82E7 /* FTImageDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800FBB21D24EA2900AB82E7 /* FTImageDefines.swift */; };
-		1800FBD31D24EA2900AB82E7 /* FTImageDownloaderOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800FBB31D24EA2900AB82E7 /* FTImageDownloaderOperation.swift */; };
-		1800FBD41D24EA2900AB82E7 /* FTImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800FBB41D24EA2900AB82E7 /* FTImageView.swift */; };
-		1800FBD51D24EA2900AB82E7 /* FTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800FBB51D24EA2900AB82E7 /* FTView.swift */; };
-		1800FBD61D24EA2900AB82E7 /* FTWebImageCompat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800FBB61D24EA2900AB82E7 /* FTWebImageCompat.swift */; };
-		1800FBD71D24EA2900AB82E7 /* FTWebImageDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800FBB71D24EA2900AB82E7 /* FTWebImageDecoder.swift */; };
-		1800FBD81D24EA2900AB82E7 /* FTWebImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800FBB81D24EA2900AB82E7 /* FTWebImageDownloader.swift */; };
-		1800FBD91D24EA2900AB82E7 /* FTWebImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800FBB91D24EA2900AB82E7 /* FTWebImageManager.swift */; };
-		1800FBDA1D24EA2900AB82E7 /* FTWebImagePrefetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800FBBA1D24EA2900AB82E7 /* FTWebImagePrefetch.swift */; };
 		1800FBDB1D24EA2900AB82E7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1800FBBB1D24EA2900AB82E7 /* Info.plist */; };
 		1800FBDC1D24EA2900AB82E7 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800FBBC1D24EA2900AB82E7 /* MasterViewController.swift */; };
 		1804823E1CBDF6D900C1F043 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1804823D1CBDF6D900C1F043 /* CoreGraphics.framework */; };
+		18D167FF1D260E0600677E63 /* FTData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D167F31D260E0600677E63 /* FTData.swift */; };
+		18D168001D260E0600677E63 /* FTImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D167F41D260E0600677E63 /* FTImage.swift */; };
+		18D168011D260E0600677E63 /* FTImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D167F51D260E0600677E63 /* FTImageCache.swift */; };
+		18D168021D260E0600677E63 /* FTImageDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D167F61D260E0600677E63 /* FTImageDefines.swift */; };
+		18D168031D260E0600677E63 /* FTImageDownloaderOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D167F71D260E0600677E63 /* FTImageDownloaderOperation.swift */; };
+		18D168041D260E0600677E63 /* FTImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D167F81D260E0600677E63 /* FTImageView.swift */; };
+		18D168051D260E0600677E63 /* FTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D167F91D260E0600677E63 /* FTView.swift */; };
+		18D168061D260E0600677E63 /* FTWebImageCompat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D167FA1D260E0600677E63 /* FTWebImageCompat.swift */; };
+		18D168071D260E0600677E63 /* FTWebImageDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D167FB1D260E0600677E63 /* FTWebImageDecoder.swift */; };
+		18D168081D260E0600677E63 /* FTWebImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D167FC1D260E0600677E63 /* FTWebImageDownloader.swift */; };
+		18D168091D260E0600677E63 /* FTWebImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D167FD1D260E0600677E63 /* FTWebImageManager.swift */; };
+		18D1680A1D260E0600677E63 /* FTWebImagePrefetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D167FE1D260E0600677E63 /* FTWebImagePrefetch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,22 +62,22 @@
 		1800FBAC1D24EA2900AB82E7 /* Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
 		1800FBAD1D24EA2900AB82E7 /* Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
 		1800FBAE1D24EA2900AB82E7 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		1800FBAF1D24EA2900AB82E7 /* FTData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTData.swift; sourceTree = "<group>"; };
-		1800FBB01D24EA2900AB82E7 /* FTImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTImage.swift; sourceTree = "<group>"; };
-		1800FBB11D24EA2900AB82E7 /* FTImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTImageCache.swift; sourceTree = "<group>"; };
-		1800FBB21D24EA2900AB82E7 /* FTImageDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTImageDefines.swift; sourceTree = "<group>"; };
-		1800FBB31D24EA2900AB82E7 /* FTImageDownloaderOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTImageDownloaderOperation.swift; sourceTree = "<group>"; };
-		1800FBB41D24EA2900AB82E7 /* FTImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTImageView.swift; sourceTree = "<group>"; };
-		1800FBB51D24EA2900AB82E7 /* FTView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTView.swift; sourceTree = "<group>"; };
-		1800FBB61D24EA2900AB82E7 /* FTWebImageCompat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTWebImageCompat.swift; sourceTree = "<group>"; };
-		1800FBB71D24EA2900AB82E7 /* FTWebImageDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTWebImageDecoder.swift; sourceTree = "<group>"; };
-		1800FBB81D24EA2900AB82E7 /* FTWebImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTWebImageDownloader.swift; sourceTree = "<group>"; };
-		1800FBB91D24EA2900AB82E7 /* FTWebImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTWebImageManager.swift; sourceTree = "<group>"; };
-		1800FBBA1D24EA2900AB82E7 /* FTWebImagePrefetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTWebImagePrefetch.swift; sourceTree = "<group>"; };
 		1800FBBB1D24EA2900AB82E7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1800FBBC1D24EA2900AB82E7 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		180431D31CB66A4300F374AE /* FTWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1804823D1CBDF6D900C1F043 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18D167F31D260E0600677E63 /* FTData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTData.swift; sourceTree = "<group>"; };
+		18D167F41D260E0600677E63 /* FTImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTImage.swift; sourceTree = "<group>"; };
+		18D167F51D260E0600677E63 /* FTImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTImageCache.swift; sourceTree = "<group>"; };
+		18D167F61D260E0600677E63 /* FTImageDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTImageDefines.swift; sourceTree = "<group>"; };
+		18D167F71D260E0600677E63 /* FTImageDownloaderOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTImageDownloaderOperation.swift; sourceTree = "<group>"; };
+		18D167F81D260E0600677E63 /* FTImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTImageView.swift; sourceTree = "<group>"; };
+		18D167F91D260E0600677E63 /* FTView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTView.swift; sourceTree = "<group>"; };
+		18D167FA1D260E0600677E63 /* FTWebImageCompat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTWebImageCompat.swift; sourceTree = "<group>"; };
+		18D167FB1D260E0600677E63 /* FTWebImageDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTWebImageDecoder.swift; sourceTree = "<group>"; };
+		18D167FC1D260E0600677E63 /* FTWebImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTWebImageDownloader.swift; sourceTree = "<group>"; };
+		18D167FD1D260E0600677E63 /* FTWebImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTWebImageManager.swift; sourceTree = "<group>"; };
+		18D167FE1D260E0600677E63 /* FTWebImagePrefetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTWebImagePrefetch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,19 +101,8 @@
 				1800FB9D1D24EA2900AB82E7 /* Main.storyboard */,
 				1800FBBC1D24EA2900AB82E7 /* MasterViewController.swift */,
 				1800FB9F1D24EA2900AB82E7 /* DetailViewController.swift */,
+				18D167F21D260E0600677E63 /* Classes */,
 				1800FBA01D24EA2900AB82E7 /* ExSwift */,
-				1800FBAF1D24EA2900AB82E7 /* FTData.swift */,
-				1800FBB01D24EA2900AB82E7 /* FTImage.swift */,
-				1800FBB11D24EA2900AB82E7 /* FTImageCache.swift */,
-				1800FBB21D24EA2900AB82E7 /* FTImageDefines.swift */,
-				1800FBB31D24EA2900AB82E7 /* FTImageDownloaderOperation.swift */,
-				1800FBB41D24EA2900AB82E7 /* FTImageView.swift */,
-				1800FBB51D24EA2900AB82E7 /* FTView.swift */,
-				1800FBB61D24EA2900AB82E7 /* FTWebImageCompat.swift */,
-				1800FBB71D24EA2900AB82E7 /* FTWebImageDecoder.swift */,
-				1800FBB81D24EA2900AB82E7 /* FTWebImageDownloader.swift */,
-				1800FBB91D24EA2900AB82E7 /* FTWebImageManager.swift */,
-				1800FBBA1D24EA2900AB82E7 /* FTWebImagePrefetch.swift */,
 				1800FBBB1D24EA2900AB82E7 /* Info.plist */,
 			);
 			path = FTWebImage;
@@ -155,6 +144,25 @@
 				180431D31CB66A4300F374AE /* FTWebImage.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		18D167F21D260E0600677E63 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18D167F31D260E0600677E63 /* FTData.swift */,
+				18D167F41D260E0600677E63 /* FTImage.swift */,
+				18D167F51D260E0600677E63 /* FTImageCache.swift */,
+				18D167F61D260E0600677E63 /* FTImageDefines.swift */,
+				18D167F71D260E0600677E63 /* FTImageDownloaderOperation.swift */,
+				18D167F81D260E0600677E63 /* FTImageView.swift */,
+				18D167F91D260E0600677E63 /* FTView.swift */,
+				18D167FA1D260E0600677E63 /* FTWebImageCompat.swift */,
+				18D167FB1D260E0600677E63 /* FTWebImageDecoder.swift */,
+				18D167FC1D260E0600677E63 /* FTWebImageDownloader.swift */,
+				18D167FD1D260E0600677E63 /* FTWebImageManager.swift */,
+				18D167FE1D260E0600677E63 /* FTWebImagePrefetch.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,34 +237,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1800FBD41D24EA2900AB82E7 /* FTImageView.swift in Sources */,
 				1800FBC21D24EA2900AB82E7 /* Array.swift in Sources */,
-				1800FBD51D24EA2900AB82E7 /* FTView.swift in Sources */,
-				1800FBD21D24EA2900AB82E7 /* FTImageDefines.swift in Sources */,
 				1800FBC31D24EA2900AB82E7 /* Bool.swift in Sources */,
-				1800FBDA1D24EA2900AB82E7 /* FTWebImagePrefetch.swift in Sources */,
-				1800FBD11D24EA2900AB82E7 /* FTImageCache.swift in Sources */,
 				1800FBCD1D24EA2900AB82E7 /* Sequence.swift in Sources */,
 				1800FBCC1D24EA2900AB82E7 /* Range.swift in Sources */,
 				1800FBC71D24EA2900AB82E7 /* ExSwift.swift in Sources */,
-				1800FBD61D24EA2900AB82E7 /* FTWebImageCompat.swift in Sources */,
+				18D168081D260E0600677E63 /* FTWebImageDownloader.swift in Sources */,
 				1800FBC41D24EA2900AB82E7 /* Character.swift in Sources */,
+				18D168011D260E0600677E63 /* FTImageCache.swift in Sources */,
 				1800FBDC1D24EA2900AB82E7 /* MasterViewController.swift in Sources */,
-				1800FBD31D24EA2900AB82E7 /* FTImageDownloaderOperation.swift in Sources */,
+				18D168061D260E0600677E63 /* FTWebImageCompat.swift in Sources */,
+				18D167FF1D260E0600677E63 /* FTData.swift in Sources */,
 				1800FBBD1D24EA2900AB82E7 /* AppDelegate.swift in Sources */,
+				18D168001D260E0600677E63 /* FTImage.swift in Sources */,
+				18D168091D260E0600677E63 /* FTWebImageManager.swift in Sources */,
 				1800FBC11D24EA2900AB82E7 /* DetailViewController.swift in Sources */,
+				18D168031D260E0600677E63 /* FTImageDownloaderOperation.swift in Sources */,
 				1800FBCA1D24EA2900AB82E7 /* NSArray.swift in Sources */,
 				1800FBC51D24EA2900AB82E7 /* Dictionary.swift in Sources */,
 				1800FBC91D24EA2900AB82E7 /* Int.swift in Sources */,
-				1800FBD01D24EA2900AB82E7 /* FTImage.swift in Sources */,
-				1800FBCF1D24EA2900AB82E7 /* FTData.swift in Sources */,
-				1800FBD71D24EA2900AB82E7 /* FTWebImageDecoder.swift in Sources */,
-				1800FBD91D24EA2900AB82E7 /* FTWebImageManager.swift in Sources */,
+				18D168071D260E0600677E63 /* FTWebImageDecoder.swift in Sources */,
 				1800FBC61D24EA2900AB82E7 /* Double.swift in Sources */,
-				1800FBD81D24EA2900AB82E7 /* FTWebImageDownloader.swift in Sources */,
 				1800FBCE1D24EA2900AB82E7 /* String.swift in Sources */,
+				18D168041D260E0600677E63 /* FTImageView.swift in Sources */,
 				1800FBCB1D24EA2900AB82E7 /* NSDate.swift in Sources */,
+				18D168021D260E0600677E63 /* FTImageDefines.swift in Sources */,
+				18D168051D260E0600677E63 /* FTView.swift in Sources */,
 				1800FBC81D24EA2900AB82E7 /* Float.swift in Sources */,
+				18D1680A1D260E0600677E63 /* FTWebImagePrefetch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
